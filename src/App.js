@@ -1,11 +1,12 @@
-
+import CreateComponent from './components/CreateComponent';
+import './App.css'
 
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <CreateComponent/>
+    </>
   );
 }
 
