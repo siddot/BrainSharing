@@ -1,17 +1,39 @@
-.create-form{
+.create-form {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.create-form h1, h2, input, textarea, select{
+
+.create-form h1,
+h2,
+input,
+textarea,
+select {
   width: 30vw;
   margin: 5px;
 }
+
 @media (max-width: 600px) {
-  .create-form h1, h2, input, textarea, select{
+
+  .create-form h1,
+  h2,
+  input,
+  textarea,
+  select {
     width: 80vw;
     margin: 5px;
   }
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form .submit {
+  width: 100px;
 }
